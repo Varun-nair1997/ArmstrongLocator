@@ -1,7 +1,14 @@
+"""
+This program plots the poisson distribution when fed a lambda parameter for a random variable.
+"""
+
+__Author__ = "Varun Nair"
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import simps
 from math import *
+
 
 def poissonPreProcess(intervalLen, start):
     """
